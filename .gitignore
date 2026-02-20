@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.env
+.pytest_cache/
+jupyter_notebook_config.py
+.ipynb_checkpoints/
+
+# Данные (не коммитим исходные файлы)
+transactions_data.xlsx
+clients_data.json
+*.csv
+*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
