@@ -1,25 +1,23 @@
 # Python
 __pycache__/
-*.py[cod]
-*.so
-.Python
+*.pyc
 venv/
-env/
 .env
-.pytest_cache/
-jupyter_notebook_config.py
-.ipynb_checkpoints/
+.venv
+*.egg-info/
 
-# Данные (не коммитим исходные файлы)
-transactions_data.xlsx
-clients_data.json
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Данные (не храним в репозитории)
 *.csv
 *.xlsx
+*.json
+*.db
+test_storage/
+data/
+postgres_data/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
+# Docker
+.dockerignore
